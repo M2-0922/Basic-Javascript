@@ -12,7 +12,6 @@ function findRectangleArea(width, length) {
 
 ```
 Your answer:
-```
 
 function findRectangleArea(width, length) {
 let rectangle = width \* length;
@@ -22,6 +21,7 @@ return rectangle;
 //result = findRectangleArea(5, 10);
 //console.log(result);
 console.log(findRectangleArea(5, 10));
+```
 
 # Question 2
 
@@ -37,13 +37,13 @@ function findLargestNumber(number1, number2, number3) {
 
 ```
 Your answer:
-```
 
 function findLargestNumber(number1, number2, number3) {
 let result = Math.max(number1, number2, number3);
 return result;
 }
 console.log(findLargestNumber(5, 8, 10));
+```
 
 # Question 3
 
@@ -60,7 +60,6 @@ function isEvenOrOdd(number) {
 
 ```
 Your answer:
-```
 
 function isEvenOrOdd(number) {
 let result;
@@ -74,3 +73,4 @@ return result;
 
 let num = 10;
 console.log(isEvenOrOdd(num));
+```
