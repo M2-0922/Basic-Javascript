@@ -12,7 +12,14 @@ function findRectangleArea(width, length) {
 
 ```
 Your answer:
-```
+function findRectangleArea(width, length) {
+
+    let answer = width * length;
+    return answer;
+
+}
+
+console.log(findRectangleArea(10,5));
 
 # Question 2
 
