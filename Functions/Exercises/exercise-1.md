@@ -14,7 +14,7 @@ function findRectangleArea(width, length) {
 Your answer:
 
 function findRectangleArea(width, length) {
-    return width * length / 2
+    return width * length
 };
 
 findRectangleArea(2, 3)
@@ -75,7 +75,7 @@ function isEvenOrOdd(number) {
       } else {
         return number + " is odd number"
       }    
-}
+};
 
 isEvenOrOdd(3);
 
