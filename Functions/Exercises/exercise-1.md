@@ -12,6 +12,10 @@ function findRectangleArea(width, length) {
 
 ```
 Your answer:
+function findRectangleArea(width, length) {
+    let area = width * length;
+    return area;
+}
 ```
 
 # Question 2
@@ -28,6 +32,13 @@ function findLargestNumber(number1, number2, number3) {
 
 ```
 Your answer:
+function findLargestNumber(number1, number2, number3) {
+    //let arr = [number1, number2, number3];
+    //let maxnum = Math.max(...arr);
+    //let maxnum = Math.max.apply(null,arr);
+    let maxnum = Math.max(number1, number2, number3);
+    return maxnum;
+}
 ```
 
 # Question 3
@@ -45,4 +56,11 @@ function isEvenOrOdd(number) {
 
 ```
 Your answer:
+function isEvenOrOdd(number) {
+    if(number % 2 == 1){
+        return number + ' is odd number';
+    }else if(number & 2 ==0){
+        return number + ' is even number';
+    }
+}
 ```
