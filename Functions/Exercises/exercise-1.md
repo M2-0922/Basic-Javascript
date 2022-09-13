@@ -6,12 +6,10 @@ Write a JavaScript function that takes two arguments as Width and Length of a re
 
 ```
 function findRectangleArea(width, length) {
-    //write your logic here..
+  let result = width * length;
+  return result;
 }
-```
 
-```
-Your answer:
 ```
 
 # Question 2
@@ -22,12 +20,10 @@ Write a Javascript function that takes three arguments and return the value of t
 
 ```
 function findLargestNumber(number1, number2, number3) {
-    //write your logic here..
+  let result = Math.max(number1, number2, number3);
+  return result;
 }
-```
 
-```
-Your answer:
 ```
 
 # Question 3
@@ -39,10 +35,13 @@ odd number `7 is odd number` | even number: `8 is even number`
 
 ```
 function isEvenOrOdd(number) {
-    //write your logic here..
+  let result;
+  if (number % 2 == 0) {
+    result = number + " is even number";
+  } else {
+    result = number + " is odd number";
+  }
+  return result;
 }
-```
 
-```
-Your answer:
 ```
