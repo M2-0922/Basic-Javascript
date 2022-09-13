@@ -12,6 +12,13 @@ function findRectangleArea(width, length) {
 
 ```
 Your answer:
+
+function findRectangleArea(width, length) {
+   asdksakdsakda
+   daksdkasdkasd
+   asdkakdas
+}
+
 ```
 
 # Question 2
