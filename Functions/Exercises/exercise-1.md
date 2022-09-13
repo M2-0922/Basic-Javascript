@@ -12,6 +12,10 @@ function findRectangleArea(width, length) {
 
 ```
 Your answer:
+function findRectangleArea(width, length) {
+    let RectangleArea = width * length;
+    return RectangleArea;
+}
 ```
 
 # Question 2
@@ -27,7 +31,9 @@ function findLargestNumber(number1, number2, number3) {
 ```
 
 ```
-Your answer:
+function findLargestNumber(number1, number2, number3) {
+    return Math.max(number1, number2, number3)
+}
 ```
 
 # Question 3
