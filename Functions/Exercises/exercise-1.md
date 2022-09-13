@@ -44,6 +44,12 @@ odd number `7 is odd number` | even number: `8 is even number`
 
 ```
 function isEvenOrOdd(number) {
+    //write your logic here..
+}
+```
+
+```
+function isEvenOrOdd(number) {
     if (number % 2 == 0) {
         return number + ' is even number';
     } else if ( number % 2 == 1) {
@@ -52,8 +58,4 @@ function isEvenOrOdd(number) {
         return `error`;
     };
 }
-```
-
-```
-Your answer:
 ```
