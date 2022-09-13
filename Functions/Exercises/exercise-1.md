@@ -43,6 +43,7 @@ function findLargestNumber(number1, number2, number3) {
     }
     return biggestNum;
 }
+
 # Question 3
 
 Write a Javascript function that takes one argument and return;
