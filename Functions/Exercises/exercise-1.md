@@ -12,7 +12,13 @@ function findRectangleArea(width, length) {
 
 ```
 Your answer:
+
+function findRectangleArea(width, length) {
+    let result = width * length
+     return result;
+}
 ```
+
 
 # Question 2
 
@@ -28,7 +34,18 @@ function findLargestNumber(number1, number2, number3) {
 
 ```
 Your answer:
+
+function findLargestNumber(number1, number2, number3) {
+    if ((a >= b) && (a >= c)) { 
+     return a;
+    } else if ((b >= a) && (b >= c)) {
+     return b;
+    } else {
+     return c;
+    }
+}
 ```
+
 
 # Question 3
 
@@ -45,4 +62,13 @@ function isEvenOrOdd(number) {
 
 ```
 Your answer:
+
+function isEvenOrOdd(number) {
+    let result = "odd"
+    if ( number%2 === 0 ) {
+        result="even"
+    }
+    return result;
+}
 ```
+
