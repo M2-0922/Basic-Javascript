@@ -2,7 +2,7 @@
 
 ## Here you can find exercises and introductions for Basic Javascript.
 
-```console.log("Hello world!")
+```
+console.log("Hello world!")
 
 ```
-    
