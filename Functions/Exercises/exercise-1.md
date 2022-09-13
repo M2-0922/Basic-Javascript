@@ -13,8 +13,7 @@ function findRectangleArea(width, length) {
 ```
 Your answer:
 function findRectangleArea(width, length) {
-    let RectangleArea = width * length;
-    return RectangleArea;
+    return width * length;
 }
 ```
 
@@ -32,7 +31,7 @@ function findLargestNumber(number1, number2, number3) {
 
 ```
 function findLargestNumber(number1, number2, number3) {
-    return Math.max(number1, number2, number3)
+    return Math.max(number1, number2, number3);
 }
 ```
 
@@ -45,7 +44,13 @@ odd number `7 is odd number` | even number: `8 is even number`
 
 ```
 function isEvenOrOdd(number) {
-    //write your logic here..
+    if (number % 2 == 0) {
+        return number + ' is even number';
+    } else if ( number % 2 == 1) {
+        return number + ' is odd number';
+    } else {
+        return `error`;
+    };
 }
 ```
 

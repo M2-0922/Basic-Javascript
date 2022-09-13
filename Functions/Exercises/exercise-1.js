@@ -1,8 +1,5 @@
 //Q1
-function findRectangleArea(width, length) {
-    let RectangleArea = width * length;
-    return RectangleArea;
-}
+
 
 console.log(findRectangleArea(2, 3)); //6
 console.log(findRectangleArea(10, 10)); //100
@@ -20,9 +17,9 @@ console.log(findLargestNumber(2,1,3)); //3
 
 function isEvenOrOdd(number) {
     if (number % 2 == 0) {
-        return `8 is even number`;
+        return number + ' is even number';
     } else if ( number % 2 == 1) {
-        return `7 is odd number`;
+        return number + ' is odd number';
     } else {
         return `error`;
     };
