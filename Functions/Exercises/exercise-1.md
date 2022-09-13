@@ -10,7 +10,9 @@ function findRectangleArea(width, length) {
 }
 ```
 
+```
 Your answer:
+```
 
 # Question 2
 
@@ -24,7 +26,9 @@ function findLargestNumber(number1, number2, number3) {
 }
 ```
 
+```
 Your answer:
+```
 
 # Question 3
 
@@ -39,4 +43,6 @@ function isEvenOrOdd(number) {
 }
 ```
 
+```
 Your answer:
+```
