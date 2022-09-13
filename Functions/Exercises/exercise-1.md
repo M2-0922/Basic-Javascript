@@ -12,6 +12,14 @@ function findRectangleArea(width, length) {
 
 ```
 Your answer:
+
+function findRectangleArea(width, length) {
+    return width * length / 2
+};
+
+findRectangleArea(2, 3)
+
+
 ```
 
 # Question 2
@@ -28,6 +36,19 @@ function findLargestNumber(number1, number2, number3) {
 
 ```
 Your answer:
+
+function findLargestNumber(number1, number2, number3) {
+    if (number1 >= number2 && number1 >= number3 ){
+        return number1  
+    } else if (number2 >= number3){
+        return number2
+    } else {
+        return number3
+    }
+};
+
+console.log(findLargestNumber(4,3,2));
+
 ```
 
 # Question 3
@@ -40,9 +61,22 @@ odd number `7 is odd number` | even number: `8 is even number`
 ```
 function isEvenOrOdd(number) {
     //write your logic here..
+
+
 }
 ```
 
 ```
 Your answer:
+
+function isEvenOrOdd(number) {
+    if (number%2 == 0){
+        return number + " is even number"
+      } else {
+        return number + " is odd number"
+      }    
+}
+
+isEvenOrOdd(3);
+
 ```

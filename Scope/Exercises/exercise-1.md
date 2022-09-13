@@ -15,4 +15,7 @@ logIt();
 
 ```
 Your answer:
+
+undefined
+
 ```
