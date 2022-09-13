@@ -13,6 +13,10 @@ function findRectangleArea(width, length) {
 ```
 Your answer:
 ```
+function findRectangleArea(width, length) {
+    let areaOfRec = width * length;
+    return areaOfRec;
+}
 
 # Question 2
 
@@ -29,7 +33,16 @@ function findLargestNumber(number1, number2, number3) {
 ```
 Your answer:
 ```
-
+function findLargestNumber(number1, number2, number3) {
+    let array = [number1, number2, number3];
+    let biggestNum = number1;
+    for (let num of array) {
+        if (num > biggestNum) {
+            biggestNum === num;
+        }
+    }
+    return biggestNum;
+}
 # Question 3
 
 Write a Javascript function that takes one argument and return;
@@ -46,3 +59,10 @@ function isEvenOrOdd(number) {
 ```
 Your answer:
 ```
+function isEvenOrOdd(number) {
+    if (number % 2 === 0) {
+        return (`${number} is even number`);
+    } else {
+        return (`${number} is odd number`);
+    }
+}
