@@ -3,15 +3,11 @@
 Write a JavaScript function that takes two arguments as Width and Length of a rectangle, then return the Area of rectangle.\
 
 # Answer 1
-
 ```
 function findRectangleArea(width, length) {
-    //write your logic here..
+   return width * length;
 }
-```
-
-```
-Your answer:
+console.log(findRectangleArea(3, 4));
 ```
 
 # Question 2
@@ -22,12 +18,9 @@ Write a Javascript function that takes three arguments and return the value of t
 
 ```
 function findLargestNumber(number1, number2, number3) {
-    //write your logic here..
+    return Math.max(number1, number2, number3)
 }
-```
-
-```
-Your answer:
+console.log(findLargestNumber(12, 9, 13));
 ```
 
 # Question 3
@@ -39,10 +32,11 @@ odd number `7 is odd number` | even number: `8 is even number`
 
 ```
 function isEvenOrOdd(number) {
-    //write your logic here..
+  if (number % 2 === 0) {
+    return `${number} is even number`;
+  } else {
+      return `${number} is odd number`;
+  }
 }
-```
-
-```
-Your answer:
+console.log(isEvenOrOdd(9));
 ```
