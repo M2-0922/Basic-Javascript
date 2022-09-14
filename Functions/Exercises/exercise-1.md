@@ -7,7 +7,7 @@ Write a JavaScript function that takes two arguments as Width and Length of a re
 ```
 function findRectangleArea(width, length) {
     let RectangleArea = width * length;
-    return RectanfleArea;
+    return RectangleArea;
 };
 
 ```

@@ -1,6 +1,6 @@
 function findRectangleArea(width, length) {
     let RectangleArea = width * length;
-    return RectanfleArea;
+    return RectangleArea;
 };
 
 console.log(isEvenOrOdd(7));
