@@ -1,3 +1,42 @@
+# Scope
+
+- Global scope
+- Local scope
+
+
+## Global Scope, Local scope
+
+Global scope variable is accessible anywhere.
+but Local scope variable is accessible inside of block. (function, or etc.)
+
+```
+let firstName = "Kubilay"
+
+function testFunction () {
+  let lastName = "Cakmak";
+
+  console.log(firstName); // Kubilay
+  console.log(lastName); // Cakmak
+
+  {
+    let count = 0;
+
+    console.log(count); // 0
+  }
+
+  console.log(count);
+}
+
+console.log(lastName) // undefined
+
+```
+
+
+
+
+
+
+
 # Hoisting
 
 Hoisting means that a variable or function is moved to the top of their scope of where we defined the variable or function.
